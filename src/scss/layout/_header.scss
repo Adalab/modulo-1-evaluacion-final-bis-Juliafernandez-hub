@@ -1,5 +1,50 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
 }
+
+header{
+    width: 320px;
+    height: 112px;
+    padding: 10px 82.5px 13px 83px;
+    border: solid 20px var(--pinkish-grey);
+    background-color: var(--white);
+}
+
+.Blog {
+    width: 48px;
+    height: 19px;
+    margin: 0 20.5px 0 0;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--greyish-brown);
+  }
+
+.Contacto {
+    width: 82px;
+    height: 19px;
+    margin: 0 0 0 20.5px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--greyish-brown);
+  }
+  
+#Bitmap {
+        width: 154.5px;
+        height: 60px;
+        margin: 0 0 10px;
+      }
+  
