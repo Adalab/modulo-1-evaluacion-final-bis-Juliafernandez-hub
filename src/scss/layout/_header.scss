@@ -4,12 +4,13 @@
   margin:0;
 }
 
-header{
-    width: 320px;
-    height: 112px;
-    padding: 10px 82.5px 13px 83px;
-    border: solid 20px var(--pinkish-grey);
-    background-color: var(--white);
+.header {
+  width: 320px;
+  height: 112px;
+  padding: 10px 82.5px 13px 83px;
+  border: solid 20px var(--pinkish-grey);
+  background-color: #ffffff;
+  text-align: center;
 }
 
 .Blog {
