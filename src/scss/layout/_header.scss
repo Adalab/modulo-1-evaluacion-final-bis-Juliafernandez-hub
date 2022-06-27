@@ -9,26 +9,16 @@
   height: 112px;
   padding: 10px 82.5px 13px 83px;
   border: solid 20px var(--pinkish-grey);
-  background-color: #ffffff;
-  text-align: center;
+  background-color: #ffffff; 
 }
 
-.Blog {
-    width: 48px;
-    height: 19px;
-    margin: 0 20.5px 0 0;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--greyish-brown);
-  }
+ .menu{
+  display: flex;
+  align-items: center;
+}
 
-.Contacto {
+
+.contacto {
     width: 82px;
     height: 19px;
     margin: 0 0 0 20.5px;
@@ -42,10 +32,20 @@
     text-align: center;
     color: var(--greyish-brown);
   }
+
   
-#Bitmap {
-        width: 154.5px;
-        height: 60px;
-        margin: 0 0 10px;
-      }
-  
+.blog {
+    width: 42px;
+    height: 19px;
+    margin: 0 20.5px 0 0;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--greyish-brown);
+  }
+

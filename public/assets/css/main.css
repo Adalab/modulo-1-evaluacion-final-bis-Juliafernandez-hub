@@ -1,7 +1,31 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
+
+.container {
+  width: 320px;
+  height: 366px;
+  margin: 112px 0 0;
+  padding: 129px 139px 129px 20px;
+  position: relative;
+  display: flex;
+  text-align: left;
+  height: 100vh;
+  width: auto; }
+
+.text {
+  position: absolute;
+  width: 161px;
+  height: 108px;
+  font-family: Rubik;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white; }
 
 * {
   box-sizing: border-box;
@@ -13,24 +37,13 @@
   height: 112px;
   padding: 10px 82.5px 13px 83px;
   border: solid 20px var(--pinkish-grey);
-  background-color: #ffffff;
-  text-align: center; }
+  background-color: #ffffff; }
 
-.Blog {
-  width: 48px;
-  height: 19px;
-  margin: 0 20.5px 0 0;
-  font-family: Rubik;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--greyish-brown); }
+.menu {
+  display: flex;
+  align-items: center; }
 
-.Contacto {
+.contacto {
   width: 82px;
   height: 19px;
   margin: 0 0 0 20.5px;
@@ -44,10 +57,19 @@
   text-align: center;
   color: var(--greyish-brown); }
 
-#Bitmap {
-  width: 154.5px;
-  height: 60px;
-  margin: 0 0 10px; }
+.blog {
+  width: 42px;
+  height: 19px;
+  margin: 0 20.5px 0 0;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--greyish-brown); }
 
 .footer {
   width: 100vw;
